@@ -2,21 +2,21 @@ export const SERVICES = [
   {
     n: '01',
     title: 'Teto Solar',
-    text: 'Vazamento, travamento, ruído, cortina, motor, lubrificação e revisão. Peça e procedimento Webasto — maior fabricante de tetos solares do mundo.',
+    text: 'Vazamento, travamento, ruído, cortina, motor, lubrificação e revisão. Peças e procedimentos Webasto, a maior fabricante de tetos solares do mundo.',
     image: '/img/servico-teto-solar.webp',
     alt: 'Interior de Jetta visto de cima, com teto solar aberto, em conserto na Fallcar',
     badge: 'Autorizada Webasto',
-    cta: 'Falar sobre teto solar',
+    cta: 'Fale sobre teto solar',
     origem: 'servico-teto-solar',
     waMsg: 'Olá, Fallcar! Quero orçamento de conserto de teto solar. Meu carro é:'
   },
   {
     n: '02',
     title: 'Tapeçaria',
-    text: 'Estofamento em couro ou tecido, forro de teto caindo, bancos, fitas de cinto e capota de conversível. Acabamento impecável.',
+    text: 'Estofamento em couro ou tecido, forro de teto caindo, bancos, fitas de cinto e capota de conversível.',
     image: '/img/servico-tapecaria.webp',
     alt: 'Fusca azul com bancos e laterais em couro caramelo, tapeçaria Fallcar',
-    cta: 'Falar sobre tapeçaria',
+    cta: 'Fale sobre tapeçaria',
     origem: 'servico-tapecaria',
     waMsg: 'Olá, Fallcar! Quero orçamento de tapeçaria/estofamento. Meu carro é:'
   },
@@ -27,7 +27,7 @@ export const SERVICES = [
     image: '/img/servico-higienizacao.webp',
     alt: 'Higienização de interior automotivo',
     video: '/video/higienizacao.mp4',
-    cta: 'Falar sobre higienização',
+    cta: 'Fale sobre higienização',
     origem: 'servico-higienizacao',
     waMsg: 'Olá, Fallcar! Quero orçamento de higienização/recuperação de interior. Meu carro é:'
   }
@@ -61,10 +61,10 @@ export const GALLERY = [
 export const GALLERY_CATS = ['Speedster', 'Fusca', 'Brasília'];
 
 export const STEPS = [
-  { n: '01', t: 'Manda a foto', d: 'Pelo WhatsApp, com marca, modelo e ano. Sem formulário longo, sem cadastro.' },
-  { n: '02', t: 'Recebe o diagnóstico', d: 'A gente diz o que provavelmente é, quanto custa e quantos dias leva.' },
-  { n: '03', t: 'Agenda na unidade mais perto', d: 'Campos Elíseos ou Osasco, no horário que der pra você deixar o carro.' },
-  { n: '04', t: 'Retira o carro', d: 'Serviço conferido com você na entrega.' }
+  { n: '01', t: 'Mande a foto', d: 'Pelo WhatsApp, com marca, modelo e ano. Sem formulário longo, sem cadastro.' },
+  { n: '02', t: 'Receba o diagnóstico', d: 'Informamos o que provavelmente é, quanto custa e quantos dias leva.' },
+  { n: '03', t: 'Agende na unidade mais próxima', d: 'Osasco ou Campos Elíseos, no horário que for melhor para você deixar o carro.' },
+  { n: '04', t: 'Retire o carro', d: 'Serviço conferido com você na entrega.' }
 ];
 
 export const RATING = { score: '4,5', count: 74, note: 'unidade Osasco' };
@@ -78,9 +78,10 @@ export const REVIEWS = [
 ];
 
 export const FAQS = [
-  { q: 'Vazamento de teto solar tem conserto ou precisa trocar tudo?', a: 'Na maioria dos casos tem conserto. Vazamento quase sempre vem de dreno entupido, borracha ressecada ou trilho desalinhado. Trocar o conjunto inteiro é exceção — e a gente só indica quando o mecanismo está realmente comprometido.' },
+  { q: 'Vazamento de teto solar tem conserto ou precisa trocar tudo?', a: 'Na maioria dos casos tem conserto. Vazamento quase sempre vem de dreno entupido, borracha ressecada ou trilho desalinhado. Trocar o conjunto inteiro é exceção, e só indicamos quando o mecanismo está realmente comprometido.' },
   { q: 'Quanto tempo o carro fica na oficina?', a: 'Depende do serviço e da peça. Mande fotos pelo WhatsApp e informamos o prazo junto com o orçamento.' },
-  { q: 'Vocês atendem carro atingido por enchente?', a: 'Sim. Removemos bancos e carpete, secamos a estrutura, tratamos odor e mofo e recuperamos ou substituímos o que não voltar. Quanto antes o carro chegar, menos coisa precisa ser trocada.' },
-  { q: 'Precisa agendar?', a: 'Recomendamos combinar antes. Mande foto e a placa pelo WhatsApp e orientamos o melhor dia e a unidade mais próxima.' },
+  { q: 'Vocês atendem carro atingido por enchente?', a: 'Sim. Removemos bancos e carpete, secamos a estrutura, tratamos odor e mofo e recuperamos ou substituímos o que não voltar. Quanto antes o carro chegar, menos peças precisam ser trocadas.' },
+  { q: 'Vocês trabalham com reforma e projetos de carros antigos?', a: 'Sim. Trabalhamos com carros antigos e clássicos, como Fusca, Brasília e Speedster, de diversos modelos. Assumimos o projeto para que o carro fique do jeito que você sempre sonhou.' },
+  { q: 'Precisa agendar?', a: 'Recomendamos combinar antes. Mande uma foto e a placa pelo WhatsApp e orientamos o melhor dia e a unidade mais próxima.' },
   { q: 'Trabalham com peça original Webasto?', a: 'Sim. Somos loja autorizada Webasto, a maior fabricante de tetos solares do mundo.' }
 ];

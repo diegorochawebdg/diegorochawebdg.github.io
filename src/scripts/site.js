@@ -107,7 +107,7 @@
         'Serviço: ' + servico
       ];
       if (d.get('desc')) linhas.push('Situação: ' + d.get('desc'));
-      linhas.push('', 'Vou mandar as fotos aqui em seguida.');
+      linhas.push('', 'Vou enviar as fotos em seguida.');
       dl('form_submit', { servico });
       const url = 'https://wa.me/' + form.dataset.whatsapp + '?text=' + encodeURIComponent(linhas.join('\n'));
       window.open(url, '_blank', 'noopener');
